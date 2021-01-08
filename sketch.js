@@ -84,17 +84,11 @@ function draw() {
   Engine.update(engine);
 
   push();
-  stroke("beige");
-  strokeWeight(4);
-  textSize(30);
   text("Drag the hexagonal stone and release it to launch it towards the tower blocks and destroy them", 80, 50);
   pop();
 
   push();
   stroke("beige");
-  strokeWeight(2.5);
-  textSize(25);
-  text("All the best", 1200, 500);
   pop();
 
   fill(rgb(135, 205, 236));
